@@ -1,0 +1,47 @@
+html {
+  background-color: hsl(220, 15%, 55%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 430px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-top: 10px;
+}
+img {
+  width: 250px;
+  height: 260px;
+  border-radius: 5px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  flex: 1;
+}
+
+h2 {
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+p {
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 400;
+}
